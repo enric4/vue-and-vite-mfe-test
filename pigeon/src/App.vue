@@ -33,16 +33,7 @@ window.addEventListener("resize", checkIfResolutionIsLow);
     </header>
 
     <div class="container">
-     <h1>Welcome to Pigeon Courier</h1>
-     <div class="img">
-    <img
-        alt="Pigeon logo"
-        class="logo"
-        src="@/assets/pigeon.png"
-        width="200"
-        height="200"
-      />
-    </div>
+      <RouterView />
     </div>
   </div>
 </template>
@@ -56,12 +47,6 @@ window.addEventListener("resize", checkIfResolutionIsLow);
 }
 
 .container {
-  margin: 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.img {
-  margin-top: 2rem;
+  margin: 2rem;
 }
 </style>

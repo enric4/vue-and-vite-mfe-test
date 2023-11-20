@@ -28,6 +28,16 @@
       components published on a central NPM package. <br /><br />Feel
       comfortable to navigate on the topbar to do what you want, and remember:
       don't be evil with the pigeon
+
+      <div class="img">
+    <img
+        alt="Pigeon logo"
+        class="logo"
+        src="@/assets/pigeon.png"
+        width="200"
+        height="200"
+      />
+    </div>
     </div>
   </div>
 </template>
@@ -51,5 +61,10 @@
       margin-top: 20px;
     }
   }
+  .img {
+  margin-top: 2rem;
+  display: flex;
+    justify-content: center;
+}
 }
 </style>
