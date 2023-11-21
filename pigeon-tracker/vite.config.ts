@@ -9,10 +9,13 @@ const APPLICATION_PORT = 5005;
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  optimizeDeps: {
+    esbuildOptions: {
+      target: 'esnext'
+    }
+  },
   build: {
-    minify: false,
-    cssCodeSplit: false,
-    target: "ES2022",
+    target: 'esnext'
   },
   server: {
     port: APPLICATION_PORT,
