@@ -11,13 +11,13 @@ const APPLICATION_PORT = 5006;
 export default defineConfig({
   optimizeDeps: {
     esbuildOptions: {
-      target: "esnext",
+      target: "ES2022",
     },
   },
   build: {
     minify: false,
     cssCodeSplit: false,
-    target: "esnext",
+    target: "ES2022",
   },
   server: {
     port: APPLICATION_PORT,
